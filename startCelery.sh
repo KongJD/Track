@@ -1,0 +1,1 @@
+nohup /public/Biosoft/Python-3.8.6/local/bin/python3 -u /public/Biosoft/Python-3.8.6/local/bin/celery -A Dmtrack2 worker -l info >>/public/Users/siteusr/website/Dmtrack2/log/celery.log 2>>/public/Users/siteusr/website/Dmtrack2/log/celery.error &

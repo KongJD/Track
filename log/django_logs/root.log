@@ -1,0 +1,463 @@
+2023-11-27 15:54:09 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 15:55:19 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 15:55:55 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 15:59:02 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 15:59:48 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:06:43 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:07:21 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:08:27 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:10:08 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:15:00 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:15:48 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:17:00 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:17:10 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 16:54:21 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:00:54 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:02:10 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:02:26 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:08:36 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:08:41 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:10:35 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:11:42 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:12:38 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-27 17:12:38 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-28 08:47:11 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-28 15:13:11 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <promise@0x7fa3b7954e50 --> <bound method Celery._autodiscover_tasks of <Celery Dmtrack2 at 0x7fa3b8ec42b0>>> raised: ModuleNotFoundError("No module named 'Bacapp'")
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/vine/promises.py", line 160, in __call__
+    return self.throw()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/vine/promises.py", line 157, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/base.py", line 672, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/base.py", line 681, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 219, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 245, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 245, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    raise e
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 266, in find_related_module
+    return importlib.import_module(module_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/tasks.py", line 7, in <module>
+    from Bacapp.send_email import send_email
+ModuleNotFoundError: No module named 'Bacapp'
+2023-11-29 16:16:59 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-11-30 16:59:01 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <promise@0x7f296ab41e50 --> <bound method Celery._autodiscover_tasks of <Celery Dmtrack2 at 0x7f296c0fdaf0>>> raised: ModuleNotFoundError("No module named 'Bacapp'")
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/vine/promises.py", line 160, in __call__
+    return self.throw()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/vine/promises.py", line 157, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/base.py", line 672, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/base.py", line 681, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 219, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 245, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 245, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    raise e
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/loaders/base.py", line 266, in find_related_module
+    return importlib.import_module(module_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/tasks.py", line 7, in <module>
+    from Bacapp.send_email import send_email
+ModuleNotFoundError: No module named 'Bacapp'
+2023-12-01 11:11:39 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 13:32:52 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7fa44a10ee20>> raised: TabError('inconsistent use of tabs and spaces in indentation', ('/public/Users/siteusr/website/Dmtrack2/backend/views.py', 288, 25, '\tusername = request.user\n'))
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 288
+    username = request.user
+                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-12-01 13:34:29 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7f73fbf16e20>> raised: TabError('inconsistent use of tabs and spaces in indentation', ('/public/Users/siteusr/website/Dmtrack2/backend/views.py', 288, 29, '\tusername = request.username\n'))
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 288
+    username = request.username
+                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-12-01 13:36:34 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7fba4a035e20>> raised: TabError('inconsistent use of tabs and spaces in indentation', ('/public/Users/siteusr/website/Dmtrack2/backend/views.py', 332, 14, '\tcontext = {}\n'))
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 332
+    context = {}
+               ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-12-01 13:41:34 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7fa711dc9e20>> raised: TabError('inconsistent use of tabs and spaces in indentation', ('/public/Users/siteusr/website/Dmtrack2/backend/views.py', 288, 26, '\t\tusername = request.user\n'))
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 288
+    username = request.user
+                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-12-01 13:42:51 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7f9fdaa26e20>> raised: TabError('inconsistent use of tabs and spaces in indentation', ('/public/Users/siteusr/website/Dmtrack2/backend/views.py', 288, 23, '\tusername=request.user\n'))
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 288
+    username=request.user
+                        ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-12-01 13:44:06 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7f123c02ce20>> raised: TabError('inconsistent use of tabs and spaces in indentation', ('/public/Users/siteusr/website/Dmtrack2/backend/views.py', 290, 25, '\tusername = request.user\n'))
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 290
+    username = request.user
+                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-12-01 13:56:53 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 14:28:05 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 14:28:36 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 14:31:11 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 14:36:27 celery.utils.dispatch.signal  /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py:280 signal:send ERROR- Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7fd7f32afe20>> raised: ModuleNotFoundError("No module named 'tasks'")
+Traceback (most recent call last):
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 82, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py", line 121, in validate_models
+    run_checks()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/Dmtrack2/urls.py", line 30, in <module>
+    path('dmtrack/', include('backend.urls')),#demo add,
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/public/Biosoft/Python-3.8.6/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/public/Users/siteusr/website/Dmtrack2/backend/urls.py", line 5, in <module>
+    from backend import views
+  File "/public/Users/siteusr/website/Dmtrack2/backend/views.py", line 32, in <module>
+    from tasks import *
+ModuleNotFoundError: No module named 'tasks'
+2023-12-01 14:37:46 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 16:21:23 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 16:26:07 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-01 17:35:16 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 13:53:31 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 13:55:39 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 14:08:09 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 14:20:43 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 14:35:39 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 14:45:01 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 15:11:28 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 15:29:19 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 15:48:43 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector
+2023-12-04 15:56:29 asyncio  /public/Biosoft/Python-3.8.6/local/lib/python3.8/asyncio/selector_events.py:59 selector_events:__init__ DEBUG- Using selector: EpollSelector

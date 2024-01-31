@@ -1,0 +1,39 @@
+[2023-12-01 15:11:07,059: INFO/MainProcess] Connected to redis://127.0.0.1:6379/3
+[2023-12-01 15:11:07,067: INFO/MainProcess] mingle: searching for neighbors
+[2023-12-01 15:11:08,086: WARNING/MainProcess] /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/control.py:48: DuplicateNodenameWarning: Received multiple replies from node name: celery@dmicrobe.cn.
+Please make sure you give each node a unique nodename using
+the celery worker `-n` option.
+  warnings.warn(DuplicateNodenameWarning(
+
+[2023-12-01 15:11:08,086: INFO/MainProcess] mingle: all alone
+[2023-12-01 15:11:08,096: WARNING/MainProcess] /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-12-01 15:11:08,096: INFO/MainProcess] celery@dmicrobe.cn ready.
+[2023-12-04 14:35:28,826: INFO/MainProcess] Connected to redis://127.0.0.1:6379/3
+[2023-12-04 14:35:28,834: INFO/MainProcess] mingle: searching for neighbors
+[2023-12-04 14:35:29,854: WARNING/MainProcess] /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/control.py:48: DuplicateNodenameWarning: Received multiple replies from node name: celery@dmicrobe.cn.
+Please make sure you give each node a unique nodename using
+the celery worker `-n` option.
+  warnings.warn(DuplicateNodenameWarning(
+
+[2023-12-04 14:35:29,855: INFO/MainProcess] mingle: all alone
+[2023-12-04 14:35:29,865: WARNING/MainProcess] /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-12-04 14:35:29,865: INFO/MainProcess] celery@dmicrobe.cn ready.
+[2023-12-04 15:25:29,443: INFO/MainProcess] Connected to redis://127.0.0.1:6379/3
+[2023-12-04 15:25:29,450: INFO/MainProcess] mingle: searching for neighbors
+[2023-12-04 15:25:30,469: WARNING/MainProcess] /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/app/control.py:48: DuplicateNodenameWarning: Received multiple replies from node name: celery@dmicrobe.cn.
+Please make sure you give each node a unique nodename using
+the celery worker `-n` option.
+  warnings.warn(DuplicateNodenameWarning(
+
+[2023-12-04 15:25:30,469: INFO/MainProcess] mingle: all alone
+[2023-12-04 15:25:30,480: WARNING/MainProcess] /public/Biosoft/Python-3.8.6/local/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-12-04 15:25:30,480: INFO/MainProcess] celery@dmicrobe.cn ready.

@@ -1,0 +1,117 @@
+ 
+ -------------- celery@dmicrobe.cn v5.0.5 (singularity)
+--- ***** ----- 
+-- ******* ---- Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17 2023-12-01 15:11:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         Dmtrack2:0x7f8a521f5af0
+- ** ---------- .> transport:   redis://127.0.0.1:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 64 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . Dmtrack2.celery.debug_task
+  . backend.tasks.ANIcalculator
+  . backend.tasks.AR_VF_analysis
+  . backend.tasks.MLST_analysis
+  . backend.tasks.SNP_Tree
+  . backend.tasks.Serotype_analysis
+  . backend.tasks.checkm
+  . backend.tasks.deal_result
+  . backend.tasks.deal_result2
+  . backend.tasks.deal_result3
+  . backend.tasks.gene_predict
+  . backend.tasks.pipCom
+  . backend.tasks.pipCom2
+  . backend.tasks.pipPE
+  . backend.tasks.pipPE2
+  . backend.tasks.pipSE
+  . backend.tasks.pipSE2
+  . backend.tasks.pipSan
+  . backend.tasks.pipSan2
+  . backend.tasks.reads_snp_analysis
+  . backend.tasks.species_find
+
+ 
+ -------------- celery@dmicrobe.cn v5.0.5 (singularity)
+--- ***** ----- 
+-- ******* ---- Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17 2023-12-04 14:35:24
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         Dmtrack2:0x7f26622a9af0
+- ** ---------- .> transport:   redis://127.0.0.1:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 64 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . Dmtrack2.celery.debug_task
+  . backend.tasks.ANIcalculator
+  . backend.tasks.AR_VF_analysis
+  . backend.tasks.MLST_analysis
+  . backend.tasks.SNP_Tree
+  . backend.tasks.Serotype_analysis
+  . backend.tasks.checkm
+  . backend.tasks.deal_result
+  . backend.tasks.deal_result2
+  . backend.tasks.deal_result3
+  . backend.tasks.gene_predict
+  . backend.tasks.pipCom
+  . backend.tasks.pipCom2
+  . backend.tasks.pipPE
+  . backend.tasks.pipPE2
+  . backend.tasks.pipSE
+  . backend.tasks.pipSE2
+  . backend.tasks.pipSan
+  . backend.tasks.pipSan2
+  . backend.tasks.reads_snp_analysis
+  . backend.tasks.species_find
+
+ 
+ -------------- celery@dmicrobe.cn v5.0.5 (singularity)
+--- ***** ----- 
+-- ******* ---- Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17 2023-12-04 15:25:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         Dmtrack2:0x7f58babcdaf0
+- ** ---------- .> transport:   redis://127.0.0.1:6379/3
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 64 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . Dmtrack2.celery.debug_task
+  . backend.tasks.ANIcalculator
+  . backend.tasks.AR_VF_analysis
+  . backend.tasks.MLST_analysis
+  . backend.tasks.SNP_Tree
+  . backend.tasks.Serotype_analysis
+  . backend.tasks.checkm
+  . backend.tasks.deal_result
+  . backend.tasks.deal_result2
+  . backend.tasks.deal_result3
+  . backend.tasks.gene_predict
+  . backend.tasks.pipCom
+  . backend.tasks.pipCom2
+  . backend.tasks.pipPE
+  . backend.tasks.pipPE2
+  . backend.tasks.pipSE
+  . backend.tasks.pipSE2
+  . backend.tasks.pipSan
+  . backend.tasks.pipSan2
+  . backend.tasks.reads_snp_analysis
+  . backend.tasks.species_find
+
